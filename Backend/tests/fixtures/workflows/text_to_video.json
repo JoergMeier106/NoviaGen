@@ -1,0 +1,23 @@
+{
+  "10": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": ""
+    }
+  },
+  "20": {
+    "class_type": "EmptyLatentVideo",
+    "inputs": {
+      "width": 512,
+      "height": 512,
+      "length": 16
+    }
+  },
+  "30": {
+    "class_type": "VHS_VideoCombine",
+    "inputs": {
+      "frame_rate": 16,
+      "save_output": true
+    }
+  }
+}

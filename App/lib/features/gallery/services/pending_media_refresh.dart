@@ -1,0 +1,4 @@
+import 'package:flutter_app/features/gallery/controllers/pending_media_refresh_controller.dart';
+
+typedef PendingMediaRefreshDependencies = PendingMediaRefreshControllerDependencies;
+typedef PendingMediaRefresh = PendingMediaRefreshController;

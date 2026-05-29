@@ -1,0 +1,95 @@
+config_version: 1
+
+paths:
+  models_dir: ${BASE_DIR}/assets/models
+  video_models_dir: ${BASE_DIR}/assets/models/videos
+  loras_dir: ${BASE_DIR}/assets/loras
+  lora_triggers_dir: ${BASE_DIR}/assets/loras_triggers
+  unknown_dir: ${BASE_DIR}/assets/unknown
+  data_dir: ${BASE_DIR}/data
+  logs_dir: ${BASE_DIR}/data/logs
+  temp_dir: ${BASE_DIR}/data/temp
+  stored_dir: ${BASE_DIR}/data/stored
+  backups_dir: ${BASE_DIR}/data/backups
+  errors_dir: ${BASE_DIR}/data/errors
+  database_path: ${BASE_DIR}/data/app.db
+
+assets:
+  lora_default_strength: 0.9
+
+cleanup:
+  temp_ttl_seconds: 7200
+  interval_seconds: 600
+  deleted_media_retention_days: 5
+
+jobs:
+  inter_job_delay_seconds: 0
+
+logging:
+  max_bytes: 2097152
+  backup_count: 5
+
+http:
+  use_x_sendfile: false
+
+generation:
+  comfy:
+    url: http://127.0.0.1:8188
+    models_timeout_seconds: 5.0
+    workflows:
+      image_to_video: ""
+      image_to_video_loop: ""
+      image_prompt_generator: ""
+      video_upscaler: ""
+      video_to_audio: ""
+      text_to_video: ""
+    autostart:
+      enabled: false
+      workdir: ""
+      executable: ""
+      args: []
+      command: ""
+      health_path: /system_stats
+      health_timeout_seconds: 2.0
+      wait_seconds: 45.0
+      poll_seconds: 1.5
+  ollama:
+    url: http://127.0.0.1:11434
+    prompt_model: ""
+    prompt_timeout_seconds: 180.0
+
+chat:
+  summary:
+    keep_recent_messages: 10
+    max_pending_chars: 18000
+  mcp:
+    local_env_path: ${BASE_DIR}/noviagen.env
+    tool_timeout_seconds: 3000.0
+    servers: {}
+  tool_loop:
+    max_steps: 6
+    result_max_chars: 8000
+
+system_commands:
+  host_shutdown: []
+  server_restart: []
+  server_restart_delay_seconds: 0.15
+
+server:
+  development:
+    host: 0.0.0.0
+    port: 5000
+    debug: false
+    threaded: true
+    use_reloader: false
+  gunicorn:
+    bind: 0.0.0.0:5000
+    workers: 1
+    worker_class: gthread
+    threads: 4
+    timeout: 120
+    graceful_timeout: 30
+    keepalive: 5
+    accesslog: "-"
+    errorlog: "-"
+    capture_output: true

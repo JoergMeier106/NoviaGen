@@ -1,0 +1,15 @@
+{
+  "5": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "placeholder.png"
+    }
+  },
+  "10": {
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "FINAL Prompt"
+    },
+    "inputs": {}
+  }
+}
