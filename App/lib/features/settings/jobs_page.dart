@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:flutter_app/job_text.dart';
-import 'package:flutter_app/shared/app_formatters.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
+import 'package:noviagen/job_text.dart';
+import 'package:noviagen/shared/app_formatters.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
 
-import 'package:flutter_app/features/settings/settings_view_model.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
 
 class JobsPage extends StatefulWidget {
   const JobsPage({

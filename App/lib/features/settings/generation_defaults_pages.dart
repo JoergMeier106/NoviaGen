@@ -2,17 +2,17 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/generate/domain/video_diffusion_model_selection.dart';
-import 'package:flutter_app/features/generate/domain/video_workflow_lora_selection.dart';
-import 'package:flutter_app/models/prompts.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
-import 'package:flutter_app/features/prompts/state/prompt_library_store.dart';
-import 'package:flutter_app/features/settings/auto_prompt_base_prompts_page.dart';
-import 'package:flutter_app/features/settings/generation_defaults_widgets.dart';
-import 'package:flutter_app/features/settings/settings_validation.dart';
-import 'package:flutter_app/features/settings/settings_widgets.dart';
+import 'package:noviagen/features/generate/domain/video_diffusion_model_selection.dart';
+import 'package:noviagen/features/generate/domain/video_workflow_lora_selection.dart';
+import 'package:noviagen/models/prompts.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
+import 'package:noviagen/features/prompts/state/prompt_library_store.dart';
+import 'package:noviagen/features/settings/auto_prompt_base_prompts_page.dart';
+import 'package:noviagen/features/settings/generation_defaults_widgets.dart';
+import 'package:noviagen/features/settings/settings_validation.dart';
+import 'package:noviagen/features/settings/settings_widgets.dart';
 
-import 'package:flutter_app/features/settings/settings_view_model.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
 
 enum _GenerationDefaultsKind {
   textToImage,

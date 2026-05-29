@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/job_text.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/app_formatters.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
+import 'package:noviagen/job_text.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/app_formatters.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
 
 class MediaDetailInfoCard extends StatelessWidget {
   const MediaDetailInfoCard({

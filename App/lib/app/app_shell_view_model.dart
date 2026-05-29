@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/app/navigation/app_navigation_controller.dart';
-import 'package:flutter_app/app/controllers/asset_refresh_controller.dart';
-import 'package:flutter_app/app/runtime/app_activity_store.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/job_runtime_store.dart';
-import 'package:flutter_app/app/runtime/media_runtime_store.dart';
-import 'package:flutter_app/features/gallery/controllers/media_actions_controller.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/app/navigation/app_navigation_controller.dart';
+import 'package:noviagen/app/controllers/asset_refresh_controller.dart';
+import 'package:noviagen/app/runtime/app_activity_store.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/job_runtime_store.dart';
+import 'package:noviagen/app/runtime/media_runtime_store.dart';
+import 'package:noviagen/features/gallery/controllers/media_actions_controller.dart';
 
 abstract class AppShellViewModel implements Listenable {
   ThemeMode get themeMode;

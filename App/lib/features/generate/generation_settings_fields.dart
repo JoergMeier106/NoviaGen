@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/models/prompts.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/models/prompts.dart';
 class VideoSettingField extends StatelessWidget {
   const VideoSettingField({
     super.key,

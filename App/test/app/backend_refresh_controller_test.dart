@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_app/app/controllers/backend_refresh_controller.dart';
+import 'package:noviagen/app/controllers/backend_refresh_controller.dart';
 
 void main() {
   test('refreshBackendData reloads backend-backed app state in order', () async {

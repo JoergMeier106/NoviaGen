@@ -1,18 +1,18 @@
-import 'package:flutter_app/features/gallery/state/gallery_browser_store.dart';
-import 'package:flutter_app/features/chat/state/chat_model_catalog_store.dart';
-import 'package:flutter_app/features/generate/state/generation_defaults_store.dart';
-import 'package:flutter_app/features/jobs/controllers/job_operations_controller.dart';
-import 'package:flutter_app/features/gallery/controllers/media_actions_controller.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/request_errors.dart';
-import 'package:flutter_app/features/jobs/controllers/job_polling_controller.dart';
-import 'package:flutter_app/features/gallery/services/media_index_synchronizer.dart';
-import 'package:flutter_app/app/navigation/app_navigation_controller.dart';
-import 'package:flutter_app/features/chat/controllers/chat_job_message_controller.dart';
-import 'package:flutter_app/app/runtime/app_activity_store.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/job_runtime_store.dart';
-import 'package:flutter_app/app/runtime/media_runtime_store.dart';
+import 'package:noviagen/features/gallery/state/gallery_browser_store.dart';
+import 'package:noviagen/features/chat/state/chat_model_catalog_store.dart';
+import 'package:noviagen/features/generate/state/generation_defaults_store.dart';
+import 'package:noviagen/features/jobs/controllers/job_operations_controller.dart';
+import 'package:noviagen/features/gallery/controllers/media_actions_controller.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/request_errors.dart';
+import 'package:noviagen/features/jobs/controllers/job_polling_controller.dart';
+import 'package:noviagen/features/gallery/services/media_index_synchronizer.dart';
+import 'package:noviagen/app/navigation/app_navigation_controller.dart';
+import 'package:noviagen/features/chat/controllers/chat_job_message_controller.dart';
+import 'package:noviagen/app/runtime/app_activity_store.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/job_runtime_store.dart';
+import 'package:noviagen/app/runtime/media_runtime_store.dart';
 
 class GalleryJobBundleDependencies {
   const GalleryJobBundleDependencies({

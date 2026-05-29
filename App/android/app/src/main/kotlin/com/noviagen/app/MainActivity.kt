@@ -1,4 +1,4 @@
-package com.example.flutter_app
+package com.noviagen.app
 
 import android.Manifest
 import android.content.Intent

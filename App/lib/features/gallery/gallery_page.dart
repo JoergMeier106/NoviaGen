@@ -2,19 +2,19 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/gallery/controllers/gallery_selection_actions_controller.dart';
-import 'package:flutter_app/features/gallery/domain/gallery_selection_capabilities.dart';
-import 'package:flutter_app/features/gallery/state/gallery_browser_store.dart';
-import 'package:flutter_app/features/gallery/state/gallery_selection_state.dart';
-import 'package:flutter_app/features/gallery/gallery_filter_sheet.dart';
-import 'package:flutter_app/features/gallery/gallery_filter_summary.dart';
-import 'package:flutter_app/features/gallery/gallery_picker_sheets.dart';
-import 'package:flutter_app/features/gallery/gallery_selection_action_bar.dart';
-import 'package:flutter_app/features/gallery/gallery_view_model.dart';
-import 'package:flutter_app/features/gallery/gallery_widgets.dart';
-import 'package:flutter_app/features/gallery/media_detail_page.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
+import 'package:noviagen/features/gallery/controllers/gallery_selection_actions_controller.dart';
+import 'package:noviagen/features/gallery/domain/gallery_selection_capabilities.dart';
+import 'package:noviagen/features/gallery/state/gallery_browser_store.dart';
+import 'package:noviagen/features/gallery/state/gallery_selection_state.dart';
+import 'package:noviagen/features/gallery/gallery_filter_sheet.dart';
+import 'package:noviagen/features/gallery/gallery_filter_summary.dart';
+import 'package:noviagen/features/gallery/gallery_picker_sheets.dart';
+import 'package:noviagen/features/gallery/gallery_selection_action_bar.dart';
+import 'package:noviagen/features/gallery/gallery_view_model.dart';
+import 'package:noviagen/features/gallery/gallery_widgets.dart';
+import 'package:noviagen/features/gallery/media_detail_page.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
 
 import 'package:provider/provider.dart';
 

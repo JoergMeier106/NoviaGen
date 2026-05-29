@@ -1,14 +1,14 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/state/gallery_state.dart';
-import 'package:flutter_app/state/image_model_selection_state.dart';
-import 'package:flutter_app/state/media_actions_state.dart';
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/models/gallery.dart';
-import 'package:flutter_app/models/generation.dart';
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/state/gallery_state.dart';
+import 'package:noviagen/state/image_model_selection_state.dart';
+import 'package:noviagen/state/media_actions_state.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/models/gallery.dart';
+import 'package:noviagen/models/generation.dart';
+import 'package:noviagen/models/media.dart';
 
 const _galleryPageSize = 30;
 

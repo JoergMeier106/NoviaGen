@@ -1,9 +1,9 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/models/system.dart';
-import 'package:flutter_app/app/persistence/settings_codecs.dart';
-import 'package:flutter_app/shared/request_errors.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/models/system.dart';
+import 'package:noviagen/app/persistence/settings_codecs.dart';
+import 'package:noviagen/shared/request_errors.dart';
 
 
 class LogStore {

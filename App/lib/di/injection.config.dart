@@ -9,8 +9,8 @@
 // coverage:ignore-file
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
-import 'package:flutter_app/app/app_change_bus.dart' as _i137;
-import 'package:flutter_app/di/injectable_module.dart' as _i613;
+import 'package:noviagen/app/app_change_bus.dart' as _i137;
+import 'package:noviagen/di/injectable_module.dart' as _i613;
 import 'package:get_it/get_it.dart' as _i174;
 import 'package:injectable/injectable.dart' as _i526;
 

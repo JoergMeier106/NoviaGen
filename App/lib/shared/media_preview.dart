@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/media_video_player.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/cached_media_image.dart';
+import 'package:noviagen/media_video_player.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/cached_media_image.dart';
 
 Widget mediaPreviewPoster(ImageRecord media, {BoxFit fit = BoxFit.cover}) {
   if (media.isPending) {

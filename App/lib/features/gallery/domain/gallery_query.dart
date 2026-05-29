@@ -1,4 +1,4 @@
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/models/media.dart';
 enum GallerySortOption {
   newest,
   oldest,

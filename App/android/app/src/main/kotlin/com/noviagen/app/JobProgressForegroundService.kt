@@ -1,4 +1,4 @@
-package com.example.flutter_app
+package com.noviagen.app
 
 import android.app.Service
 import android.content.Intent
@@ -60,8 +60,8 @@ class JobProgressForegroundService : Service() {
     }
 
     companion object {
-        const val ACTION_START_OR_UPDATE = "com.example.flutter_app.action.START_OR_UPDATE_JOB_PROGRESS"
-        const val ACTION_STOP = "com.example.flutter_app.action.STOP_JOB_PROGRESS"
+        const val ACTION_START_OR_UPDATE = "com.noviagen.app.action.START_OR_UPDATE_JOB_PROGRESS"
+        const val ACTION_STOP = "com.noviagen.app.action.STOP_JOB_PROGRESS"
         const val EXTRA_TITLE = "title"
         const val EXTRA_STATUS_TEXT = "status_text"
         const val EXTRA_PROGRESS_TEXT = "progress_text"

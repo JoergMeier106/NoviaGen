@@ -1,1 +1,1 @@
-export 'package:flutter_app/features/generate/services/image_orientation_detector.dart';
+export 'package:noviagen/features/generate/services/image_orientation_detector.dart';

@@ -70,6 +70,12 @@ NoviaGen is a local-first generative media application with a Flutter frontend a
 
 </details>
 
+# Test Environment
+
+This project was tested on Linux with a Nvidia GPU.
+
+# Structure
+
 The project is split into two main parts:
 
 ```mermaid
@@ -153,6 +159,13 @@ At a high level:
 7. Start the Flutter app and point it to the backend base URL.
 
 Typical backend command:
+
+```bash
+python -m flask --app "Backend:create_app()" run --host 127.0.0.1 --port 5000
+```
+
+For LAN access, bind explicitly to all interfaces and make sure you trust the
+network you are exposing the backend on:
 
 ```bash
 python -m flask --app "Backend:create_app()" run --host 0.0.0.0 --port 5000

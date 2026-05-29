@@ -1,10 +1,10 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/app/persistence/settings_codecs.dart';
-import 'package:flutter_app/features/jobs/persistence/inter_job_delay_persistence.dart';
-import 'package:flutter_app/features/settings/logs/log_store.dart';
-import 'package:flutter_app/app/persistence/settings_keys.dart';
-import 'package:flutter_app/app/persistence/settings_persistence_scope.dart';
+import 'package:noviagen/app/persistence/settings_codecs.dart';
+import 'package:noviagen/features/jobs/persistence/inter_job_delay_persistence.dart';
+import 'package:noviagen/features/settings/logs/log_store.dart';
+import 'package:noviagen/app/persistence/settings_keys.dart';
+import 'package:noviagen/app/persistence/settings_persistence_scope.dart';
 
 
 class SettingsPersistence {

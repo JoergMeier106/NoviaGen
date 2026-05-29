@@ -1,8 +1,8 @@
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/job_runtime_store.dart';
-import 'package:flutter_app/app/runtime/media_runtime_store.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/job_runtime_store.dart';
+import 'package:noviagen/app/runtime/media_runtime_store.dart';
 
 
 class VideoResultPreviewControllerDependencies {

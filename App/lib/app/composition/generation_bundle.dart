@@ -1,18 +1,18 @@
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/generate/controllers/auto_prompt_controller.dart';
-import 'package:flutter_app/features/chat/state/chat_model_catalog_store.dart';
-import 'package:flutter_app/features/generate/state/generation_defaults_store.dart';
-import 'package:flutter_app/features/generate/services/generation_job_factory.dart';
-import 'package:flutter_app/features/generate/state/generation_source_store.dart';
-import 'package:flutter_app/features/generate/state/image_model_selection_store.dart';
-import 'package:flutter_app/shared/request_errors.dart';
-import 'package:flutter_app/features/prompts/state/prompt_library_store.dart';
-import 'package:flutter_app/features/generate/state/video_asset_selection_store.dart';
-import 'package:flutter_app/features/generate/state/video_generation_settings_store.dart';
-import 'package:flutter_app/features/generate/services/video_regeneration_job_factory.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/generation_draft_store.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/generate/controllers/auto_prompt_controller.dart';
+import 'package:noviagen/features/chat/state/chat_model_catalog_store.dart';
+import 'package:noviagen/features/generate/state/generation_defaults_store.dart';
+import 'package:noviagen/features/generate/services/generation_job_factory.dart';
+import 'package:noviagen/features/generate/state/generation_source_store.dart';
+import 'package:noviagen/features/generate/state/image_model_selection_store.dart';
+import 'package:noviagen/shared/request_errors.dart';
+import 'package:noviagen/features/prompts/state/prompt_library_store.dart';
+import 'package:noviagen/features/generate/state/video_asset_selection_store.dart';
+import 'package:noviagen/features/generate/state/video_generation_settings_store.dart';
+import 'package:noviagen/features/generate/services/video_regeneration_job_factory.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/generation_draft_store.dart';
 
 class GenerationBundleDependencies {
   const GenerationBundleDependencies({

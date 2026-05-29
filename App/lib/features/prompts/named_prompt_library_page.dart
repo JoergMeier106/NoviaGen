@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/prompts.dart';
-import 'package:flutter_app/prompt_editor_page.dart';
+import 'package:noviagen/models/prompts.dart';
+import 'package:noviagen/prompt_editor_page.dart';
 
 
 class NamedPromptLibraryPage<T extends NamedPromptEntry>

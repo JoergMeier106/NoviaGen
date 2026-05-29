@@ -1,1 +1,1 @@
-export 'package:flutter_app/app/home_shell.dart';
+export 'package:noviagen/app/home_shell.dart';

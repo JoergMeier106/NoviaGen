@@ -2,16 +2,16 @@ import 'dart:async';
 
 import 'package:image_picker/image_picker.dart';
 
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/app/navigation/app_navigation_controller.dart';
-import 'package:flutter_app/app/persistence/settings_codecs.dart';
-import 'package:flutter_app/features/generate/state/generation_defaults_store.dart';
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
-import 'package:flutter_app/features/generate/state/generation_source_store.dart';
-import 'package:flutter_app/features/generate/state/video_asset_selection_store.dart';
-import 'package:flutter_app/features/generate/state/video_generation_settings_store.dart';
-import 'package:flutter_app/app/controllers/configuration_controller.dart';
-import 'package:flutter_app/app/runtime/generation_draft_store.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/app/navigation/app_navigation_controller.dart';
+import 'package:noviagen/app/persistence/settings_codecs.dart';
+import 'package:noviagen/features/generate/state/generation_defaults_store.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/features/generate/state/generation_source_store.dart';
+import 'package:noviagen/features/generate/state/video_asset_selection_store.dart';
+import 'package:noviagen/features/generate/state/video_generation_settings_store.dart';
+import 'package:noviagen/app/controllers/configuration_controller.dart';
+import 'package:noviagen/app/runtime/generation_draft_store.dart';
 
 
 class GenerationSourceDependencies {

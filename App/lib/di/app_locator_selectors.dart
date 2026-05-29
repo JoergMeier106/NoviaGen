@@ -1,12 +1,12 @@
 import 'package:get_it/get_it.dart';
 
-import 'package:flutter_app/models/chat_models.dart';
-import 'package:flutter_app/models/chat_sessions.dart';
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/prompts.dart';
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
-import 'package:flutter_app/features/settings/system/wake_on_lan_settings.dart' as wol;
-import 'package:flutter_app/di/app_locator.dart';
+import 'package:noviagen/models/chat_models.dart';
+import 'package:noviagen/models/chat_sessions.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/prompts.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/features/settings/system/wake_on_lan_settings.dart' as wol;
+import 'package:noviagen/di/app_locator.dart';
 
 extension AppLocatorSelectors on GetIt {
   bool get loadingGallery {

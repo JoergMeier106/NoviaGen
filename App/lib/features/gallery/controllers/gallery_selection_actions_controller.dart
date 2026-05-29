@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 
-import 'package:flutter_app/features/gallery/gallery_view_model.dart';
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/features/gallery/gallery_view_model.dart';
+import 'package:noviagen/models/media.dart';
 
 typedef GallerySelectionMessageSink = void Function(String message);
 typedef GallerySelectionMountedLookup = bool Function();

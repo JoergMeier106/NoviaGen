@@ -1,17 +1,17 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 
-import 'package:flutter_app/main.dart';
-import 'package:flutter_app/app/app_shell_view_model.dart';
-import 'package:flutter_app/features/chat/chat_page.dart';
-import 'package:flutter_app/features/chat/chat_view_model.dart';
-import 'package:flutter_app/features/gallery/gallery_page.dart';
-import 'package:flutter_app/features/gallery/gallery_view_model.dart';
-import 'package:flutter_app/features/generate/generate_page.dart';
-import 'package:flutter_app/features/generate/generation_view_model.dart';
-import 'package:flutter_app/features/settings/settings_pages.dart';
-import 'package:flutter_app/features/settings/settings_view_model.dart';
-import 'package:flutter_app/state/app_state/app_bootstrap.dart';
+import 'package:noviagen/main.dart';
+import 'package:noviagen/app/app_shell_view_model.dart';
+import 'package:noviagen/features/chat/chat_page.dart';
+import 'package:noviagen/features/chat/chat_view_model.dart';
+import 'package:noviagen/features/gallery/gallery_page.dart';
+import 'package:noviagen/features/gallery/gallery_view_model.dart';
+import 'package:noviagen/features/generate/generate_page.dart';
+import 'package:noviagen/features/generate/generation_view_model.dart';
+import 'package:noviagen/features/settings/settings_pages.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
+import 'package:noviagen/state/app_state/app_bootstrap.dart';
 
 void main() {
   testWidgets('app shell renders main navigation', (WidgetTester tester) async {

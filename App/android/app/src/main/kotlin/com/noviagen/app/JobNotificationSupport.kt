@@ -1,4 +1,4 @@
-package com.example.flutter_app
+package com.noviagen.app
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -18,8 +18,8 @@ object JobNotificationSupport {
     const val OPEN_MEDIA_DETAIL_REQUEST_CODE = 30105
     const val EXTRA_OPEN_GENERATE = "open_generate_page"
     const val EXTRA_OPEN_MEDIA_DETAIL_ID = "open_media_detail_id"
-    const val ACTION_OPEN_GENERATE = "com.example.flutter_app.OPEN_GENERATE"
-    const val ACTION_OPEN_MEDIA_DETAIL = "com.example.flutter_app.OPEN_MEDIA_DETAIL"
+    const val ACTION_OPEN_GENERATE = "com.noviagen.app.OPEN_GENERATE"
+    const val ACTION_OPEN_MEDIA_DETAIL = "com.noviagen.app.OPEN_MEDIA_DETAIL"
 
     fun createNotificationChannels(context: Context) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) {

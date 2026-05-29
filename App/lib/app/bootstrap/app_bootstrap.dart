@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
 
-import 'package:flutter_app/app/text2image_app.dart';
-import 'package:flutter_app/di/app_locator.dart';
-import 'package:flutter_app/di/injection.dart';
-import 'package:flutter_app/job_notifications.dart';
+import 'package:noviagen/app/text2image_app.dart';
+import 'package:noviagen/di/app_locator.dart';
+import 'package:noviagen/di/injection.dart';
+import 'package:noviagen/job_notifications.dart';
 
 
 Future<Widget> buildBootstrappedText2ImageApp() async {

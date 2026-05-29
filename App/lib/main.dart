@@ -3,13 +3,13 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/app/runtime/app_crash_report_store.dart';
-import 'package:flutter_app/app/system_ui.dart';
-import 'package:flutter_app/app/bootstrap/app_bootstrap.dart';
+import 'package:noviagen/app/runtime/app_crash_report_store.dart';
+import 'package:noviagen/app/system_ui.dart';
+import 'package:noviagen/app/bootstrap/app_bootstrap.dart';
 
-export 'package:flutter_app/app/noviagen_app.dart';
-export 'package:flutter_app/app/home_shell.dart';
-export 'package:flutter_app/app/text2image_app.dart';
+export 'package:noviagen/app/noviagen_app.dart';
+export 'package:noviagen/app/home_shell.dart';
+export 'package:noviagen/app/text2image_app.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

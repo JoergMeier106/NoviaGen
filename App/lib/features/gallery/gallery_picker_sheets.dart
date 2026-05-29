@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/gallery/state/gallery_browser_store.dart';
-import 'package:flutter_app/features/gallery/gallery_view_model.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/gallery/state/gallery_browser_store.dart';
+import 'package:noviagen/features/gallery/gallery_view_model.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
 
 
 Future<void> showGallerySortPicker(

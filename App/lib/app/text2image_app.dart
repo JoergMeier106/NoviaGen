@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/app/home_shell.dart';
-import 'package:flutter_app/app/noviagen_theme.dart';
-import 'package:flutter_app/app/providers/core_providers.dart';
+import 'package:noviagen/app/home_shell.dart';
+import 'package:noviagen/app/noviagen_theme.dart';
+import 'package:noviagen/app/providers/core_providers.dart';
 
-import 'package:flutter_app/app/app_shell_view_model.dart';
+import 'package:noviagen/app/app_shell_view_model.dart';
 import 'package:provider/provider.dart';
 
 class Text2ImageApp extends StatelessWidget {

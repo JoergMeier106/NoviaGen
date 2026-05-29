@@ -3,9 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/chat/chat_time_formatters.dart';
-import 'package:flutter_app/features/chat/chat_view_model.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/chat/chat_time_formatters.dart';
+import 'package:noviagen/features/chat/chat_view_model.dart';
 
 class ChatContextImagePicker extends StatefulWidget {
   const ChatContextImagePicker({

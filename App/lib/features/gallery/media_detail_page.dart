@@ -2,18 +2,18 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/media_preview.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
-import 'package:flutter_app/features/gallery/fullscreen_media_page.dart';
-import 'package:flutter_app/features/gallery/media_detail_actions.dart';
-import 'package:flutter_app/features/gallery/media_detail_info_card.dart';
-import 'package:flutter_app/features/gallery/media_tag_editor.dart';
-import 'package:flutter_app/features/gallery/gallery_picker_sheets.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/media_preview.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
+import 'package:noviagen/features/gallery/fullscreen_media_page.dart';
+import 'package:noviagen/features/gallery/media_detail_actions.dart';
+import 'package:noviagen/features/gallery/media_detail_info_card.dart';
+import 'package:noviagen/features/gallery/media_tag_editor.dart';
+import 'package:noviagen/features/gallery/gallery_picker_sheets.dart';
 
 import 'package:provider/provider.dart';
-import 'package:flutter_app/features/gallery/gallery_view_model.dart';
+import 'package:noviagen/features/gallery/gallery_view_model.dart';
 
 class MediaDetailPage extends StatelessWidget {
   const MediaDetailPage({

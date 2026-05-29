@@ -1,10 +1,10 @@
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/models/generation.dart';
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/chat/state/chat_model_catalog_store.dart';
-import 'package:flutter_app/features/generate/state/generation_defaults_store.dart';
-import 'package:flutter_app/features/generate/state/video_asset_selection_store.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/models/generation.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/chat/state/chat_model_catalog_store.dart';
+import 'package:noviagen/features/generate/state/generation_defaults_store.dart';
+import 'package:noviagen/features/generate/state/video_asset_selection_store.dart';
 
 class GenerationJobFactory {
   GenerationJobFactory({

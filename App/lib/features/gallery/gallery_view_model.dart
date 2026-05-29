@@ -1,15 +1,15 @@
 import 'package:flutter/foundation.dart';
 
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/generate/controllers/generation_source_controller.dart';
-import 'package:flutter_app/features/gallery/controllers/media_job_controller.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/job_runtime_store.dart';
-import 'package:flutter_app/app/runtime/media_runtime_store.dart';
-import 'package:flutter_app/features/gallery/state/gallery_browser_store.dart';
-import 'package:flutter_app/features/jobs/controllers/job_operations_controller.dart';
-import 'package:flutter_app/features/gallery/controllers/media_actions_controller.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/generate/controllers/generation_source_controller.dart';
+import 'package:noviagen/features/gallery/controllers/media_job_controller.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/job_runtime_store.dart';
+import 'package:noviagen/app/runtime/media_runtime_store.dart';
+import 'package:noviagen/features/gallery/state/gallery_browser_store.dart';
+import 'package:noviagen/features/jobs/controllers/job_operations_controller.dart';
+import 'package:noviagen/features/gallery/controllers/media_actions_controller.dart';
 
 abstract class GalleryViewModel implements Listenable {
   String get baseUrl;

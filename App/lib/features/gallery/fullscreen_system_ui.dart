@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/models/media.dart';
 class FullscreenSystemUi {
   bool? _appliedPortraitOrientation;
 

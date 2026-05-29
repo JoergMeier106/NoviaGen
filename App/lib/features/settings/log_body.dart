@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/system.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
-import 'package:flutter_app/features/settings/log_row_card.dart';
+import 'package:noviagen/models/system.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
+import 'package:noviagen/features/settings/log_row_card.dart';
 
 
 class LogBody extends StatelessWidget {

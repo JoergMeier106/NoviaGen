@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/chat_attachments.dart';
+import 'package:noviagen/models/chat_attachments.dart';
 class ChatAttachmentGallery extends StatelessWidget {
   const ChatAttachmentGallery({super.key, required this.attachments});
 

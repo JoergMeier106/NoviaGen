@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/app/persistence/settings_keys.dart';
-import 'package:flutter_app/app/persistence/settings_persistence_scope.dart';
+import 'package:noviagen/app/persistence/settings_keys.dart';
+import 'package:noviagen/app/persistence/settings_persistence_scope.dart';
 
 
 class GenerationDraftPersistence {

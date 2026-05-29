@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/chat_messages.dart';
-import 'package:flutter_app/features/chat/chat_attachment_preview.dart';
-import 'package:flutter_app/features/chat/chat_markdown.dart';
-import 'package:flutter_app/features/chat/chat_time_formatters.dart';
+import 'package:noviagen/models/chat_messages.dart';
+import 'package:noviagen/features/chat/chat_attachment_preview.dart';
+import 'package:noviagen/features/chat/chat_markdown.dart';
+import 'package:noviagen/features/chat/chat_time_formatters.dart';
 
 class ChatBubble extends StatelessWidget {
   const ChatBubble({

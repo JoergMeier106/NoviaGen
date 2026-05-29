@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/gallery/domain/gallery_selection_capabilities.dart';
+import 'package:noviagen/features/gallery/domain/gallery_selection_capabilities.dart';
 
 class GallerySelectionActionBarHeader extends SliverPersistentHeaderDelegate {
   const GallerySelectionActionBarHeader({

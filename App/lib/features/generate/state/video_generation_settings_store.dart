@@ -3,9 +3,9 @@ import 'dart:math' as math;
 
 import 'package:flutter/foundation.dart';
 
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
-import 'package:flutter_app/features/generate/domain/video_settings_draft.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/features/generate/domain/video_settings_draft.dart';
 
 
 class VideoGenerationSettingsStore {

@@ -1,10 +1,10 @@
-import 'package:flutter_app/app/navigation/app_navigation_controller.dart';
-import 'package:flutter_app/app/runtime/app_crash_report_store.dart';
-import 'package:flutter_app/features/settings/logs/log_store.dart';
-import 'package:flutter_app/features/settings/system/system_operations_controller.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/job_runtime_store.dart';
-import 'package:flutter_app/app/runtime/media_runtime_store.dart';
+import 'package:noviagen/app/navigation/app_navigation_controller.dart';
+import 'package:noviagen/app/runtime/app_crash_report_store.dart';
+import 'package:noviagen/features/settings/logs/log_store.dart';
+import 'package:noviagen/features/settings/system/system_operations_controller.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/job_runtime_store.dart';
+import 'package:noviagen/app/runtime/media_runtime_store.dart';
 
 class SystemBundleDependencies {
   const SystemBundleDependencies({

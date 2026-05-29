@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/shared/app_formatters.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
+import 'package:noviagen/shared/app_formatters.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
 
-import 'package:flutter_app/features/settings/settings_view_model.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
 
 class SystemInfoPage extends StatefulWidget {
   const SystemInfoPage({

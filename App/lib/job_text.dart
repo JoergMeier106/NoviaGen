@@ -1,4 +1,4 @@
-import 'package:flutter_app/models/jobs.dart';
+import 'package:noviagen/models/jobs.dart';
 
 String jobTitleText(JobStatus job) {
   if (job.isChainParent && !job.isTerminal) {

@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/app/persistence/settings_codecs.dart';
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/app/persistence/settings_codecs.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
 
 class GenerationDefaultsStore {
   GenerationDefaultsStore({required this.onChanged});

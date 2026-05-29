@@ -1,17 +1,17 @@
-import 'package:flutter_app/models/chat_attachments.dart';
-import 'package:flutter_app/models/chat_sessions.dart';
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/chat/state/chat_attachment_store.dart';
-import 'package:flutter_app/features/chat/controllers/chat_job_message_controller.dart';
-import 'package:flutter_app/features/chat/state/chat_model_catalog_store.dart';
-import 'package:flutter_app/features/chat/state/chat_session_store.dart';
-import 'package:flutter_app/shared/request_errors.dart';
-import 'package:flutter_app/features/chat/services/chat_message_attachments.dart';
-import 'package:flutter_app/app/runtime/app_activity_store.dart';
-import 'package:flutter_app/app/runtime/app_chat_runtime_store.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/job_runtime_store.dart';
+import 'package:noviagen/models/chat_attachments.dart';
+import 'package:noviagen/models/chat_sessions.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/chat/state/chat_attachment_store.dart';
+import 'package:noviagen/features/chat/controllers/chat_job_message_controller.dart';
+import 'package:noviagen/features/chat/state/chat_model_catalog_store.dart';
+import 'package:noviagen/features/chat/state/chat_session_store.dart';
+import 'package:noviagen/shared/request_errors.dart';
+import 'package:noviagen/features/chat/services/chat_message_attachments.dart';
+import 'package:noviagen/app/runtime/app_activity_store.dart';
+import 'package:noviagen/app/runtime/app_chat_runtime_store.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/job_runtime_store.dart';
 
 class ChatMessageDependencies {
   const ChatMessageDependencies({

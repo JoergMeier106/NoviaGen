@@ -2,16 +2,16 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/chat_sessions.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/chat/chat_conversation_view.dart';
-import 'package:flutter_app/features/chat/chat_context_image_picker.dart';
-import 'package:flutter_app/features/chat/chat_session_widgets.dart';
-import 'package:flutter_app/features/chat/chat_system_prompts_page.dart';
-import 'package:flutter_app/features/chat/chat_tools_page.dart';
+import 'package:noviagen/models/chat_sessions.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/chat/chat_conversation_view.dart';
+import 'package:noviagen/features/chat/chat_context_image_picker.dart';
+import 'package:noviagen/features/chat/chat_session_widgets.dart';
+import 'package:noviagen/features/chat/chat_system_prompts_page.dart';
+import 'package:noviagen/features/chat/chat_tools_page.dart';
 
 import 'package:provider/provider.dart';
-import 'package:flutter_app/features/chat/chat_view_model.dart';
+import 'package:noviagen/features/chat/chat_view_model.dart';
 
 class ChatPage extends StatelessWidget {
   const ChatPage({super.key});

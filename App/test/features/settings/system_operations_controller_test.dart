@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/app/runtime/app_crash_report_store.dart';
-import 'package:flutter_app/features/settings/system/system_operations_controller.dart';
-import 'package:flutter_app/models/jobs.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/app/runtime/app_crash_report_store.dart';
+import 'package:noviagen/features/settings/system/system_operations_controller.dart';
+import 'package:noviagen/models/jobs.dart';
 
 class _FakeApiClient extends ApiClient {
   _FakeApiClient({required this.errorResponse, required this.deletedCount})
@@ -64,7 +64,7 @@ void main() {
 
       final handled = store.recordPlatformError(
         StateError(
-          "LocalFile: '/data/user/0/com.example.flutter_app/cache/"
+          "LocalFile: '/data/user/0/com.noviagen.app/cache/"
           "libCachedImageData/image.png' is empty and cannot be loaded "
           'as an image.',
         ),

@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:flutter_app/models/chat_attachments.dart';
-import 'package:flutter_app/models/chat_messages.dart';
-import 'package:flutter_app/models/chat_sessions.dart';
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/chat/state/chat_attachment_store.dart';
-import 'package:flutter_app/features/chat/state/chat_session_store.dart';
+import 'package:noviagen/models/chat_attachments.dart';
+import 'package:noviagen/models/chat_messages.dart';
+import 'package:noviagen/models/chat_sessions.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/chat/state/chat_attachment_store.dart';
+import 'package:noviagen/features/chat/state/chat_session_store.dart';
 
 class ChatJobMessageController {
   ChatJobMessageController({

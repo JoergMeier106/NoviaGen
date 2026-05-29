@@ -1,8 +1,8 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/models/chat_models.dart';
-import 'package:flutter_app/models/chat_sessions.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/models/chat_models.dart';
+import 'package:noviagen/models/chat_sessions.dart';
 class ChatModelCatalogStore {
   ChatModelCatalogStore({
     required this.api,

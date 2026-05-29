@@ -2,12 +2,12 @@ import 'dart:async';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/features/gallery/domain/gallery_filtering.dart';
-import 'package:flutter_app/features/gallery/domain/gallery_query.dart';
-import 'package:flutter_app/models/gallery.dart';
-import 'package:flutter_app/models/media.dart';
-export 'package:flutter_app/features/gallery/domain/gallery_filtering.dart';
-export 'package:flutter_app/features/gallery/domain/gallery_query.dart';
+import 'package:noviagen/features/gallery/domain/gallery_filtering.dart';
+import 'package:noviagen/features/gallery/domain/gallery_query.dart';
+import 'package:noviagen/models/gallery.dart';
+import 'package:noviagen/models/media.dart';
+export 'package:noviagen/features/gallery/domain/gallery_filtering.dart';
+export 'package:noviagen/features/gallery/domain/gallery_query.dart';
 
 class GalleryBrowserStore {
   GalleryBrowserStore({

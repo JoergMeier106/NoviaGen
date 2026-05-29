@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
 
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
-import 'package:flutter_app/features/generate/persistence/generation_source_persistence.dart';
-import 'package:flutter_app/features/generate/services/image_orientation_detector.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/request_errors.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/features/generate/persistence/generation_source_persistence.dart';
+import 'package:noviagen/features/generate/services/image_orientation_detector.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/request_errors.dart';
 
 class GenerationSourceStore {
   GenerationSourceStore({

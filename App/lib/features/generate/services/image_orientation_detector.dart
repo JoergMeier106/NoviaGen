@@ -3,7 +3,7 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
 
 
 ImageOrientationSetting imageOrientationFromDimensions(int width, int height) {

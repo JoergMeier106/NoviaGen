@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/chat_sessions.dart';
-import 'package:flutter_app/models/prompts.dart';
-import 'package:flutter_app/features/prompts/named_prompt_library_page.dart';
-import 'package:flutter_app/features/chat/chat_view_model.dart';
+import 'package:noviagen/models/chat_sessions.dart';
+import 'package:noviagen/models/prompts.dart';
+import 'package:noviagen/features/prompts/named_prompt_library_page.dart';
+import 'package:noviagen/features/chat/chat_view_model.dart';
 
 class ChatSystemPromptsPage extends StatelessWidget {
   const ChatSystemPromptsPage({

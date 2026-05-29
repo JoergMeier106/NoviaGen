@@ -1,13 +1,13 @@
 import 'dart:async';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/shared/request_errors.dart';
-import 'package:flutter_app/features/generate/state/image_model_selection_store.dart';
-import 'package:flutter_app/features/generate/state/video_asset_selection_store.dart';
-import 'package:flutter_app/features/generate/state/video_generation_settings_store.dart';
-import 'package:flutter_app/app/runtime/app_activity_store.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/shared/request_errors.dart';
+import 'package:noviagen/features/generate/state/image_model_selection_store.dart';
+import 'package:noviagen/features/generate/state/video_asset_selection_store.dart';
+import 'package:noviagen/features/generate/state/video_generation_settings_store.dart';
+import 'package:noviagen/app/runtime/app_activity_store.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
 
 
 class AssetRefreshDependencies {

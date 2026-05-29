@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/generate/domain/video_diffusion_model_selection.dart';
-import 'package:flutter_app/features/generate/domain/video_workflow_lora_selection.dart';
+import 'package:noviagen/features/generate/domain/video_diffusion_model_selection.dart';
+import 'package:noviagen/features/generate/domain/video_workflow_lora_selection.dart';
 
 class WorkflowLoraStrengthSection extends StatelessWidget {
   const WorkflowLoraStrengthSection({

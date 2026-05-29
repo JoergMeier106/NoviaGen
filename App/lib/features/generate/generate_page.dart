@@ -3,19 +3,19 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/cached_media_image.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
-import 'package:flutter_app/features/generate/generation_form_widgets.dart';
-import 'package:flutter_app/features/generate/generation_settings_fields.dart';
-import 'package:flutter_app/features/generate/generation_source_picker.dart';
-import 'package:flutter_app/features/generate/latest_media_card.dart';
-import 'package:flutter_app/features/generate/lora_selection_page.dart';
-import 'package:flutter_app/features/generate/video_generate_panel.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/cached_media_image.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
+import 'package:noviagen/features/generate/generation_form_widgets.dart';
+import 'package:noviagen/features/generate/generation_settings_fields.dart';
+import 'package:noviagen/features/generate/generation_source_picker.dart';
+import 'package:noviagen/features/generate/latest_media_card.dart';
+import 'package:noviagen/features/generate/lora_selection_page.dart';
+import 'package:noviagen/features/generate/video_generate_panel.dart';
 
 import 'package:provider/provider.dart';
-import 'package:flutter_app/features/generate/generation_view_model.dart';
+import 'package:noviagen/features/generate/generation_view_model.dart';
 
 class GeneratePage extends StatelessWidget {
   const GeneratePage({super.key});

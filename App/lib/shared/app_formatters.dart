@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/system.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/system.dart';
 String formatBytes(int bytes) {
   const units = ['B', 'KB', 'MB', 'GB'];
   var value = bytes.toDouble();

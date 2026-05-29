@@ -1,4 +1,4 @@
-import 'package:flutter_app/models/assets.dart';
+import 'package:noviagen/models/assets.dart';
 const int videoResolutionStep = 32;
 const int videoMinWidth = 32;
 const int videoMaxWidth = 1920;

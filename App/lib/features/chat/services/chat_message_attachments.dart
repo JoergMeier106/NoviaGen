@@ -1,5 +1,5 @@
-import 'package:flutter_app/models/chat_attachments.dart';
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/models/chat_attachments.dart';
+import 'package:noviagen/models/media.dart';
 class ChatMessageAttachments {
   const ChatMessageAttachments(this.records);
 

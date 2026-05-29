@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/media_video_player.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/cached_media_image.dart';
-import 'package:flutter_app/shared/media_preview.dart';
-import 'package:flutter_app/features/gallery/fullscreen_controls.dart';
+import 'package:noviagen/media_video_player.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/cached_media_image.dart';
+import 'package:noviagen/shared/media_preview.dart';
+import 'package:noviagen/features/gallery/fullscreen_controls.dart';
 
 class FullscreenTopOverlay extends StatelessWidget {
   const FullscreenTopOverlay({

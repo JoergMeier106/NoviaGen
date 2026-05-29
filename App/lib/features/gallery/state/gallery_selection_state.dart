@@ -1,4 +1,4 @@
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/models/media.dart';
 
 class GallerySelectionState {
   final Set<String> _selectedImageIds = <String>{};

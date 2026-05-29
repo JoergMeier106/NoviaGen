@@ -1,4 +1,4 @@
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
 
 
 class GenerationDraftStore {

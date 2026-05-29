@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/prompts.dart';
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/models/prompts.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
 
 
 List<PromptPreset> decodePromptPresets(String? raw) {

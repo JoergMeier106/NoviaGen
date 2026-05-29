@@ -3,16 +3,16 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/app_formatters.dart';
-import 'package:flutter_app/shared/cached_media_image.dart';
-import 'package:flutter_app/features/generate/generation_form_widgets.dart';
-import 'package:flutter_app/features/generate/generation_settings_fields.dart';
-import 'package:flutter_app/features/generate/generation_source_picker.dart';
-import 'package:flutter_app/features/generate/video_settings_controls.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/app_formatters.dart';
+import 'package:noviagen/shared/cached_media_image.dart';
+import 'package:noviagen/features/generate/generation_form_widgets.dart';
+import 'package:noviagen/features/generate/generation_settings_fields.dart';
+import 'package:noviagen/features/generate/generation_source_picker.dart';
+import 'package:noviagen/features/generate/video_settings_controls.dart';
 
-import 'package:flutter_app/features/generate/generation_view_model.dart';
+import 'package:noviagen/features/generate/generation_view_model.dart';
 
 class VideoGeneratePanel extends StatefulWidget {
   const VideoGeneratePanel({

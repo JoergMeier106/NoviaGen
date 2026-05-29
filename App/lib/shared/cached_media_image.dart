@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/shared/media_image_errors.dart';
+import 'package:noviagen/shared/media_image_errors.dart';
 
 class CachedMediaImage extends StatelessWidget {
   const CachedMediaImage({

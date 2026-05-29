@@ -1,5 +1,5 @@
-import 'package:flutter_app/features/gallery/domain/gallery_query.dart';
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/features/gallery/domain/gallery_query.dart';
+import 'package:noviagen/models/media.dart';
 String galleryMediaTypeQueryValue(GalleryMediaTypeFilter value) {
   switch (value) {
     case GalleryMediaTypeFilter.all:

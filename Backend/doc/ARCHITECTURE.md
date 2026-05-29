@@ -62,9 +62,12 @@ from Backend import create_app
 
 `Backend/__init__.py` is intentionally small and delegates to `Backend/app`.
 
-### `Backend/app/`
+### `Backend/app/app/`
 
-Application bootstrap lives here.
+Application bootstrap lives in the nested `app` package under `Backend/app/`.
+`Backend/app/__init__.py` re-exports the public app-factory helpers from this
+subpackage so imports such as `from Backend import create_app` and
+`from app import create_app` continue to work.
 
 | File | Responsibility |
 | --- | --- |
@@ -74,7 +77,8 @@ Application bootstrap lives here.
 | `comfy_autostart.py` | Optional ComfyUI startup and recovered-job gating. |
 | `logging.py` | Console logging, request logging, and log-store integration. |
 
-Keep app assembly code in `app/`. Do not add feature logic or HTTP route handlers here.
+Keep app assembly code in `app/app/`. Do not add feature logic or HTTP route
+handlers here.
 
 ## Backend package map
 

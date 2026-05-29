@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/prompts.dart';
-import 'package:flutter_app/features/prompts/named_prompt_library_page.dart';
+import 'package:noviagen/models/prompts.dart';
+import 'package:noviagen/features/prompts/named_prompt_library_page.dart';
 
 
 class AutoPromptBasePromptsPage extends StatelessWidget {

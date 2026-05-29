@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/chat/chat_time_formatters.dart';
-import 'package:flutter_app/models/chat_sessions.dart';
+import 'package:noviagen/features/chat/chat_time_formatters.dart';
+import 'package:noviagen/models/chat_sessions.dart';
 class EmptyChatState extends StatelessWidget {
   const EmptyChatState({
     super.key,

@@ -2,22 +2,22 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/shared/app_formatters.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
-import 'package:flutter_app/app/controllers/configuration_controller.dart';
-import 'package:flutter_app/features/settings/assets_page.dart';
-import 'package:flutter_app/features/settings/backups_page.dart';
-import 'package:flutter_app/features/settings/errors_page.dart';
-import 'package:flutter_app/features/settings/generation_defaults_pages.dart';
-import 'package:flutter_app/features/settings/jobs_page.dart';
-import 'package:flutter_app/features/settings/logs_page.dart';
-import 'package:flutter_app/features/settings/prompt_presets_page.dart';
-import 'package:flutter_app/features/settings/settings_validation.dart';
-import 'package:flutter_app/features/settings/settings_widgets.dart';
-import 'package:flutter_app/features/settings/system_info_page.dart';
+import 'package:noviagen/shared/app_formatters.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
+import 'package:noviagen/app/controllers/configuration_controller.dart';
+import 'package:noviagen/features/settings/assets_page.dart';
+import 'package:noviagen/features/settings/backups_page.dart';
+import 'package:noviagen/features/settings/errors_page.dart';
+import 'package:noviagen/features/settings/generation_defaults_pages.dart';
+import 'package:noviagen/features/settings/jobs_page.dart';
+import 'package:noviagen/features/settings/logs_page.dart';
+import 'package:noviagen/features/settings/prompt_presets_page.dart';
+import 'package:noviagen/features/settings/settings_validation.dart';
+import 'package:noviagen/features/settings/settings_widgets.dart';
+import 'package:noviagen/features/settings/system_info_page.dart';
 
 import 'package:provider/provider.dart';
-import 'package:flutter_app/features/settings/settings_view_model.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key, required this.isActive});

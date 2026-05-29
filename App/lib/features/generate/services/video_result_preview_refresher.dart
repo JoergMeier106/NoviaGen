@@ -1,4 +1,4 @@
-import 'package:flutter_app/features/generate/controllers/video_result_preview_controller.dart';
+import 'package:noviagen/features/generate/controllers/video_result_preview_controller.dart';
 
 typedef VideoResultPreviewDependencies = VideoResultPreviewControllerDependencies;
 typedef VideoResultPreviewRefresher = VideoResultPreviewController;

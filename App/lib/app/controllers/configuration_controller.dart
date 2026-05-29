@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
-import 'package:flutter_app/app/persistence/generation_draft_persistence.dart';
-import 'package:flutter_app/app/persistence/settings_persistence.dart';
-import 'package:flutter_app/app/persistence/settings_persistence_scope.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/app/persistence/generation_draft_persistence.dart';
+import 'package:noviagen/app/persistence/settings_persistence.dart';
+import 'package:noviagen/app/persistence/settings_persistence_scope.dart';
 
 
 class ConfigurationDependencies {

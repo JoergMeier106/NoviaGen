@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
 
 class MediaTagEditor extends StatefulWidget {
   const MediaTagEditor({

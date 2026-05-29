@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/chat/chat_attachment_preview.dart';
-import 'package:flutter_app/models/chat_attachments.dart';
+import 'package:noviagen/features/chat/chat_attachment_preview.dart';
+import 'package:noviagen/models/chat_attachments.dart';
 
 class ChatComposer extends StatelessWidget {
   const ChatComposer({

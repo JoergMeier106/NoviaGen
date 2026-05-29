@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/api_client.dart';
+import 'package:noviagen/api_client.dart';
 
 
 class AppConnectionStore {

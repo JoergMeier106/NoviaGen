@@ -1,5 +1,5 @@
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
 JobStatus? firstActiveJob(Iterable<JobStatus> jobs) {
   return _firstMatchingActiveJob(
         jobs,

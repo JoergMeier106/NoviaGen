@@ -56,13 +56,13 @@ The backend is exposed through a Flask app factory.
 Typical development command from the repository root:
 
 ```bash
-python -m flask --app "Backend:create_app()" run --host 0.0.0.0 --port 5000
+python -m flask --app "Backend:create_app()" run --host 127.0.0.1 --port 5000
 ```
 
-Use `127.0.0.1` instead of `0.0.0.0` when only local access is needed:
+Use `0.0.0.0` only when you intentionally want LAN access:
 
 ```bash
-python -m flask --app "Backend:create_app()" run --host 127.0.0.1 --port 5000
+python -m flask --app "Backend:create_app()" run --host 0.0.0.0 --port 5000
 ```
 
 ### SQLite
@@ -314,7 +314,7 @@ Use them to confirm that the machine sees the GPU and that another process is no
 Run the backend:
 
 ```bash
-python -m flask --app "Backend:create_app()" run --host 0.0.0.0 --port 5000
+python -m flask --app "Backend:create_app()" run --host 127.0.0.1 --port 5000
 ```
 
 Run with Flask debug mode:

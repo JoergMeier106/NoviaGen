@@ -1,12 +1,12 @@
-import 'package:flutter_app/app/navigation/app_navigation_controller.dart';
-import 'package:flutter_app/features/chat/state/chat_attachment_store.dart';
-import 'package:flutter_app/features/chat/controllers/chat_job_message_controller.dart';
-import 'package:flutter_app/features/chat/state/chat_model_catalog_store.dart';
-import 'package:flutter_app/features/chat/state/chat_session_store.dart';
-import 'package:flutter_app/shared/request_errors.dart';
-import 'package:flutter_app/app/runtime/app_chat_runtime_store.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/media_runtime_store.dart';
+import 'package:noviagen/app/navigation/app_navigation_controller.dart';
+import 'package:noviagen/features/chat/state/chat_attachment_store.dart';
+import 'package:noviagen/features/chat/controllers/chat_job_message_controller.dart';
+import 'package:noviagen/features/chat/state/chat_model_catalog_store.dart';
+import 'package:noviagen/features/chat/state/chat_session_store.dart';
+import 'package:noviagen/shared/request_errors.dart';
+import 'package:noviagen/app/runtime/app_chat_runtime_store.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/media_runtime_store.dart';
 
 
 class ChatBundleDependencies {

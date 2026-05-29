@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_app/models/generation.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/state/gallery_state.dart';
+import 'package:noviagen/models/generation.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/state/gallery_state.dart';
 
 ImageRecord _media({
   required String id,

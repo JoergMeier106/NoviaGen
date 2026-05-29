@@ -4,9 +4,9 @@ import 'dart:math' as math;
 
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/models/generation.dart';
-import 'package:flutter_app/app/persistence/settings_codecs.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/models/generation.dart';
+import 'package:noviagen/app/persistence/settings_codecs.dart';
 
 
 class RandomImageGenerationSelection {

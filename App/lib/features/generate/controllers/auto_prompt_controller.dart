@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
 class AutoPromptController {
   AutoPromptController({
     required this.api,

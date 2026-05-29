@@ -1,18 +1,18 @@
 import 'dart:async';
 
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/chat/controllers/chat_job_message_controller.dart';
-import 'package:flutter_app/features/jobs/services/job_notification_service.dart';
-import 'package:flutter_app/features/jobs/services/fetched_job_synchronizer.dart';
-import 'package:flutter_app/features/jobs/services/job_status_fetcher.dart';
-import 'package:flutter_app/features/gallery/controllers/pending_media_refresh_controller.dart';
-import 'package:flutter_app/features/jobs/services/terminal_job_handler.dart';
-import 'package:flutter_app/features/generate/controllers/video_result_preview_controller.dart';
-import 'package:flutter_app/app/runtime/app_activity_store.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/job_runtime_store.dart';
-import 'package:flutter_app/app/runtime/media_runtime_store.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/chat/controllers/chat_job_message_controller.dart';
+import 'package:noviagen/features/jobs/services/job_notification_service.dart';
+import 'package:noviagen/features/jobs/services/fetched_job_synchronizer.dart';
+import 'package:noviagen/features/jobs/services/job_status_fetcher.dart';
+import 'package:noviagen/features/gallery/controllers/pending_media_refresh_controller.dart';
+import 'package:noviagen/features/jobs/services/terminal_job_handler.dart';
+import 'package:noviagen/features/generate/controllers/video_result_preview_controller.dart';
+import 'package:noviagen/app/runtime/app_activity_store.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/job_runtime_store.dart';
+import 'package:noviagen/app/runtime/media_runtime_store.dart';
 
 
 class JobPollingDependencies {

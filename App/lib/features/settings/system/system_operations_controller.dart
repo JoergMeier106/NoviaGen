@@ -1,15 +1,15 @@
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/app/runtime/app_crash_report_store.dart';
-import 'package:flutter_app/models/backups.dart';
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/models/system.dart';
-import 'package:flutter_app/features/settings/backups/app_data_backup.dart';
-import 'package:flutter_app/shared/request_errors.dart';
-import 'package:flutter_app/features/settings/system/wake_on_lan_settings.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/app/runtime/app_crash_report_store.dart';
+import 'package:noviagen/models/backups.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/models/system.dart';
+import 'package:noviagen/features/settings/backups/app_data_backup.dart';
+import 'package:noviagen/shared/request_errors.dart';
+import 'package:noviagen/features/settings/system/wake_on_lan_settings.dart';
 
 class SystemOperationsController {
   SystemOperationsController({

@@ -1,4 +1,4 @@
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/models/media.dart';
 class MediaRuntimeStore {
   List<ImageRecord> gallery = <ImageRecord>[];
   ImageRecord? latestImage;

@@ -1,13 +1,13 @@
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 
-import 'package:flutter_app/di/app_locator.dart';
-import 'package:flutter_app/di/injection.dart';
-import 'package:flutter_app/app/app_shell_view_model.dart';
-import 'package:flutter_app/features/chat/chat_view_model.dart';
-import 'package:flutter_app/features/generate/generation_view_model.dart';
-import 'package:flutter_app/features/gallery/gallery_view_model.dart';
-import 'package:flutter_app/features/settings/settings_view_model.dart';
+import 'package:noviagen/di/app_locator.dart';
+import 'package:noviagen/di/injection.dart';
+import 'package:noviagen/app/app_shell_view_model.dart';
+import 'package:noviagen/features/chat/chat_view_model.dart';
+import 'package:noviagen/features/generate/generation_view_model.dart';
+import 'package:noviagen/features/gallery/gallery_view_model.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
 
 class CoreProviders extends StatelessWidget {
   const CoreProviders({super.key, required this.child});

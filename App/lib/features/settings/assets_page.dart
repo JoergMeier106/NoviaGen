@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
 
-import 'package:flutter_app/features/settings/settings_view_model.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
 
 class AssetsPage extends StatefulWidget {
   const AssetsPage({

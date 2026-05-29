@@ -1,3 +1,3 @@
-import 'package:flutter_app/features/jobs/services/job_status_fetcher.dart';
+import 'package:noviagen/features/jobs/services/job_status_fetcher.dart';
 
 typedef JobStatusService = JobStatusFetcher;

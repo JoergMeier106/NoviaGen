@@ -1,4 +1,4 @@
-import 'package:flutter_app/models/jobs.dart';
+import 'package:noviagen/models/jobs.dart';
 class JobRuntimeStore {
   List<JobStatus> jobs = <JobStatus>[];
   JobStatus? latestJob;

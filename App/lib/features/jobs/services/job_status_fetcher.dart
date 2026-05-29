@@ -1,6 +1,6 @@
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/shared/request_errors.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/shared/request_errors.dart';
 
 
 class JobStatusFetcher {

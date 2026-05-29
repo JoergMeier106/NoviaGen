@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/chat/chat_view_model.dart';
-import 'package:flutter_app/models/chat_tools.dart';
+import 'package:noviagen/features/chat/chat_view_model.dart';
+import 'package:noviagen/models/chat_tools.dart';
 
 class ChatToolsPage extends StatelessWidget {
   const ChatToolsPage({

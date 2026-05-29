@@ -473,7 +473,7 @@ Keep storage keys centralized when possible. Avoid scattering literal preference
 Prefer stable package imports when crossing folders:
 
 ```dart
-import 'package:flutter_app/features/generate/state/generation_source_store.dart';
+import 'package:noviagen/features/generate/state/generation_source_store.dart';
 ```
 
 Relative imports are acceptable for nearby files inside the same folder or tightly coupled subfolder, but avoid deep relative imports across features.

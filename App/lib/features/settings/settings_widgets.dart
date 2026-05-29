@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/chat_models.dart';
-import 'package:flutter_app/models/system.dart';
-import 'package:flutter_app/features/settings/settings_view_model.dart';
+import 'package:noviagen/models/chat_models.dart';
+import 'package:noviagen/models/system.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
 
 class SettingsEntryTile extends StatelessWidget {
   const SettingsEntryTile({

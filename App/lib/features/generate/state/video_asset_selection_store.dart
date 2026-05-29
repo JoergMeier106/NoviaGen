@@ -3,11 +3,11 @@ import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/features/generate/domain/video_diffusion_model_selection.dart';
-import 'package:flutter_app/features/generate/domain/video_workflow_lora_selection.dart';
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/models/generation.dart';
-import 'package:flutter_app/app/persistence/settings_codecs.dart';
+import 'package:noviagen/features/generate/domain/video_diffusion_model_selection.dart';
+import 'package:noviagen/features/generate/domain/video_workflow_lora_selection.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/models/generation.dart';
+import 'package:noviagen/app/persistence/settings_codecs.dart';
 
 class VideoAssetSelectionStore {
   VideoAssetSelectionStore({required this.onChanged});

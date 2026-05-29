@@ -67,16 +67,25 @@ Backend:create_app()
 Typical development command from the repository root:
 
 ```bash
+python -m flask --app "Backend:create_app()" run --host 127.0.0.1 --port 5000
+```
+
+To expose the backend to other devices on your LAN, switch the host binding and
+understand that the service will no longer be local-only:
+
+```bash
 python -m flask --app "Backend:create_app()" run --host 0.0.0.0 --port 5000
 ```
 
-For local-only development:
+For local-only development with Flask debug mode:
 
 ```bash
 python -m flask --app "Backend:create_app()" --debug run --host 127.0.0.1 --port 5000
 ```
 
-Implementation detail: the factory is implemented in `Backend/app/factory.py`, while `Backend/__init__.py` re-exports `create_app` for compatibility.
+Implementation detail: the factory is implemented in
+`Backend/app/app/factory.py`, while `Backend/__init__.py` re-exports
+`create_app` for compatibility.
 
 ## 3. Understand the default backend paths
 
@@ -271,8 +280,10 @@ Use the exact model name configured in your local backend config.
 From the repository root, with the virtual environment active:
 
 ```bash
-python -m flask --app "Backend:create_app()" run --host 0.0.0.0 --port 5000
+python -m flask --app "Backend:create_app()" run --host 127.0.0.1 --port 5000
 ```
+
+Use `--host 0.0.0.0` only when you intentionally want LAN access.
 
 Check health:
 

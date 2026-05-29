@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_app/features/generate/domain/video_diffusion_model_selection.dart';
-import 'package:flutter_app/features/generate/domain/video_workflow_lora_selection.dart';
-import 'package:flutter_app/features/prompts/domain/saved_prompt_collection.dart';
-import 'package:flutter_app/features/settings/generation_defaults_pages.dart';
-import 'package:flutter_app/features/settings/settings_view_model.dart';
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/models/chat_models.dart';
-import 'package:flutter_app/models/prompts.dart';
+import 'package:noviagen/features/generate/domain/video_diffusion_model_selection.dart';
+import 'package:noviagen/features/generate/domain/video_workflow_lora_selection.dart';
+import 'package:noviagen/features/prompts/domain/saved_prompt_collection.dart';
+import 'package:noviagen/features/settings/generation_defaults_pages.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/models/chat_models.dart';
+import 'package:noviagen/models/prompts.dart';
 
 void main() {
   testWidgets(

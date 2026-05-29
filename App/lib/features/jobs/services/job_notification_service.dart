@@ -1,5 +1,5 @@
-import 'package:flutter_app/job_notifications.dart';
-import 'package:flutter_app/models/jobs.dart';
+import 'package:noviagen/job_notifications.dart';
+import 'package:noviagen/models/jobs.dart';
 class JobNotificationService {
   JobNotificationController? _notifications;
   String? _runningNotificationJobId;

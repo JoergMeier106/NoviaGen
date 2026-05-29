@@ -3,14 +3,14 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:flutter_app/models/system.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
-import 'package:flutter_app/features/settings/log_body.dart';
-import 'package:flutter_app/features/settings/log_controls_card.dart';
-import 'package:flutter_app/features/settings/log_filters.dart';
-import 'package:flutter_app/features/settings/log_sheets.dart';
+import 'package:noviagen/models/system.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
+import 'package:noviagen/features/settings/log_body.dart';
+import 'package:noviagen/features/settings/log_controls_card.dart';
+import 'package:noviagen/features/settings/log_filters.dart';
+import 'package:noviagen/features/settings/log_sheets.dart';
 
-import 'package:flutter_app/features/settings/settings_view_model.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
 
 class LogsPage extends StatefulWidget {
   const LogsPage({

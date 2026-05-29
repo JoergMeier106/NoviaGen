@@ -1,12 +1,12 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/features/generate/domain/video_diffusion_model_selection.dart';
-import 'package:flutter_app/features/generate/services/generation_job_factory.dart';
-import 'package:flutter_app/features/generate/state/generation_defaults_store.dart';
-import 'package:flutter_app/features/generate/state/video_asset_selection_store.dart';
-import 'package:flutter_app/features/chat/state/chat_model_catalog_store.dart';
-import 'package:flutter_app/models/assets.dart';
+import 'package:noviagen/features/generate/domain/video_diffusion_model_selection.dart';
+import 'package:noviagen/features/generate/services/generation_job_factory.dart';
+import 'package:noviagen/features/generate/state/generation_defaults_store.dart';
+import 'package:noviagen/features/generate/state/video_asset_selection_store.dart';
+import 'package:noviagen/features/chat/state/chat_model_catalog_store.dart';
+import 'package:noviagen/models/assets.dart';
 
 void main() {
   setUp(() {

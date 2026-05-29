@@ -4,17 +4,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 
-import 'package:flutter_app/features/chat/chat_page.dart';
-import 'package:flutter_app/features/gallery/gallery_page.dart';
-import 'package:flutter_app/features/gallery/media_detail_page.dart';
-import 'package:flutter_app/features/generate/generate_page.dart';
-import 'package:flutter_app/features/settings/settings_pages.dart';
-import 'package:flutter_app/features/settings/settings_view_model.dart';
-import 'package:flutter_app/job_text.dart';
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/app/system_ui.dart';
-import 'package:flutter_app/app/app_shell_view_model.dart';
+import 'package:noviagen/features/chat/chat_page.dart';
+import 'package:noviagen/features/gallery/gallery_page.dart';
+import 'package:noviagen/features/gallery/media_detail_page.dart';
+import 'package:noviagen/features/generate/generate_page.dart';
+import 'package:noviagen/features/settings/settings_pages.dart';
+import 'package:noviagen/features/settings/settings_view_model.dart';
+import 'package:noviagen/job_text.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/app/system_ui.dart';
+import 'package:noviagen/app/app_shell_view_model.dart';
 
 import 'package:provider/provider.dart';
 

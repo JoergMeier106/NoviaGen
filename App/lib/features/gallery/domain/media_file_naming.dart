@@ -1,4 +1,4 @@
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/models/media.dart';
 String downloadExtensionForMedia(ImageRecord media) {
   return switch (media.mimeType) {
     'image/gif' => 'gif',

@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
-import 'package:flutter_app/features/generate/services/image_orientation_detector.dart';
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/features/generate/services/image_orientation_detector.dart';
+import 'package:noviagen/models/media.dart';
 
 class RestoredGenerationSource {
   const RestoredGenerationSource({

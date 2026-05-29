@@ -4,13 +4,13 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/device_downloads.dart';
-import 'package:flutter_app/models/gallery.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/gallery/state/gallery_browser_store.dart';
-import 'package:flutter_app/features/gallery/domain/media_file_naming.dart';
-import 'package:flutter_app/shared/request_errors.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/device_downloads.dart';
+import 'package:noviagen/models/gallery.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/gallery/state/gallery_browser_store.dart';
+import 'package:noviagen/features/gallery/domain/media_file_naming.dart';
+import 'package:noviagen/shared/request_errors.dart';
 
 class MediaActionsController {
   MediaActionsController({

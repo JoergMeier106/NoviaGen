@@ -1,10 +1,10 @@
 import 'package:image_picker/image_picker.dart';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/models/chat_attachments.dart';
-import 'package:flutter_app/models/gallery.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/request_errors.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/models/chat_attachments.dart';
+import 'package:noviagen/models/gallery.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/request_errors.dart';
 
 
 class ChatAttachmentStore {

@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/chat/state/chat_model_catalog_store.dart';
-import 'package:flutter_app/features/chat/state/chat_session_store.dart';
-import 'package:flutter_app/features/gallery/state/gallery_browser_store.dart';
-import 'package:flutter_app/features/generate/state/generation_defaults_store.dart';
-import 'package:flutter_app/features/generate/state/generation_source_store.dart';
-import 'package:flutter_app/features/generate/domain/generation_settings.dart';
-import 'package:flutter_app/features/generate/state/image_model_selection_store.dart';
-import 'package:flutter_app/features/settings/logs/log_store.dart';
-import 'package:flutter_app/features/prompts/state/prompt_library_store.dart';
-import 'package:flutter_app/features/settings/system/system_operations_controller.dart';
-import 'package:flutter_app/features/generate/state/video_asset_selection_store.dart';
-import 'package:flutter_app/features/generate/state/video_generation_settings_store.dart';
-import 'package:flutter_app/app/runtime/app_chat_runtime_store.dart';
-import 'package:flutter_app/app/runtime/app_connection_store.dart';
-import 'package:flutter_app/app/runtime/generation_draft_store.dart';
-import 'package:flutter_app/app/runtime/job_runtime_store.dart';
-import 'package:flutter_app/app/runtime/scaling_preferences_store.dart';
+import 'package:noviagen/features/chat/state/chat_model_catalog_store.dart';
+import 'package:noviagen/features/chat/state/chat_session_store.dart';
+import 'package:noviagen/features/gallery/state/gallery_browser_store.dart';
+import 'package:noviagen/features/generate/state/generation_defaults_store.dart';
+import 'package:noviagen/features/generate/state/generation_source_store.dart';
+import 'package:noviagen/features/generate/domain/generation_settings.dart';
+import 'package:noviagen/features/generate/state/image_model_selection_store.dart';
+import 'package:noviagen/features/settings/logs/log_store.dart';
+import 'package:noviagen/features/prompts/state/prompt_library_store.dart';
+import 'package:noviagen/features/settings/system/system_operations_controller.dart';
+import 'package:noviagen/features/generate/state/video_asset_selection_store.dart';
+import 'package:noviagen/features/generate/state/video_generation_settings_store.dart';
+import 'package:noviagen/app/runtime/app_chat_runtime_store.dart';
+import 'package:noviagen/app/runtime/app_connection_store.dart';
+import 'package:noviagen/app/runtime/generation_draft_store.dart';
+import 'package:noviagen/app/runtime/job_runtime_store.dart';
+import 'package:noviagen/app/runtime/scaling_preferences_store.dart';
 
 
 class SettingsPersistenceScope {

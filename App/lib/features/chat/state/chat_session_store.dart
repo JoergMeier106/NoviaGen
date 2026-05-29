@@ -1,11 +1,11 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/api_client.dart';
-import 'package:flutter_app/models/chat_messages.dart';
-import 'package:flutter_app/models/chat_sessions.dart';
-import 'package:flutter_app/features/chat/state/chat_attachment_store.dart';
-import 'package:flutter_app/features/chat/state/chat_model_catalog_store.dart';
-import 'package:flutter_app/shared/request_errors.dart';
+import 'package:noviagen/api_client.dart';
+import 'package:noviagen/models/chat_messages.dart';
+import 'package:noviagen/models/chat_sessions.dart';
+import 'package:noviagen/features/chat/state/chat_attachment_store.dart';
+import 'package:noviagen/features/chat/state/chat_model_catalog_store.dart';
+import 'package:noviagen/shared/request_errors.dart';
 
 class ChatSessionStore {
   ChatSessionStore({

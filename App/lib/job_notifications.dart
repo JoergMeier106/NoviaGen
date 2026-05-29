@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 
-import 'package:flutter_app/job_text.dart';
-import 'package:flutter_app/models/jobs.dart';
+import 'package:noviagen/job_text.dart';
+import 'package:noviagen/models/jobs.dart';
 class JobNotificationController {
   static const MethodChannel _channel = MethodChannel(
     'noviagen/job_notifications',

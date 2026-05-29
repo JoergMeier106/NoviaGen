@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import 'package:flutter_app/models/chat_tools.dart';
+import 'package:noviagen/models/chat_tools.dart';
 
 class AppChatRuntimeStore {
   String draft = '';

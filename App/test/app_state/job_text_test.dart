@@ -1,11 +1,11 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/state/gallery_state.dart';
-import 'package:flutter_app/job_text.dart';
-import 'package:flutter_app/models/generation.dart';
-import 'package:flutter_app/models/jobs.dart';
-import 'package:flutter_app/models/media.dart';
+import 'package:noviagen/state/gallery_state.dart';
+import 'package:noviagen/job_text.dart';
+import 'package:noviagen/models/generation.dart';
+import 'package:noviagen/models/jobs.dart';
+import 'package:noviagen/models/media.dart';
 
 void main() {
   setUp(() {

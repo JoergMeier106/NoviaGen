@@ -2,13 +2,13 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/media_video_player.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/gallery/fullscreen_system_ui.dart';
-import 'package:flutter_app/features/gallery/fullscreen_media_widgets.dart';
+import 'package:noviagen/media_video_player.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/gallery/fullscreen_system_ui.dart';
+import 'package:noviagen/features/gallery/fullscreen_media_widgets.dart';
 
 import 'package:provider/provider.dart';
-import 'package:flutter_app/features/gallery/gallery_view_model.dart';
+import 'package:noviagen/features/gallery/gallery_view_model.dart';
 
 class FullscreenMediaPage extends StatelessWidget {
   const FullscreenMediaPage({

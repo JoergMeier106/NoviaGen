@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/features/generate/generation_view_model.dart';
-import 'package:flutter_app/shared/request_errors.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/features/generate/generation_view_model.dart';
+import 'package:noviagen/shared/request_errors.dart';
 
 Future<void> openGenerationSourcePicker(
   BuildContext context, {

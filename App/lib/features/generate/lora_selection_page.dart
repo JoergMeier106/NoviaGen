@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/assets.dart';
-import 'package:flutter_app/features/generate/generation_view_model.dart';
+import 'package:noviagen/models/assets.dart';
+import 'package:noviagen/features/generate/generation_view_model.dart';
 
 class _LoraTile extends StatelessWidget {
   const _LoraTile({

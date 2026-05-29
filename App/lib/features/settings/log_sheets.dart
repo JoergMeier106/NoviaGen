@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/features/settings/log_filters.dart';
+import 'package:noviagen/features/settings/log_filters.dart';
 
 
 Future<LogSource?> showLogSourceSheet({

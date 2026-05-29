@@ -1,23 +1,23 @@
 import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
 
-import 'package:flutter_app/models/chat_attachments.dart';
-import 'package:flutter_app/models/chat_messages.dart';
-import 'package:flutter_app/models/chat_models.dart';
-import 'package:flutter_app/models/chat_sessions.dart';
-import 'package:flutter_app/models/chat_tools.dart';
-import 'package:flutter_app/models/gallery.dart';
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/models/prompts.dart';
-import 'package:flutter_app/app/navigation/app_navigation_controller.dart';
-import 'package:flutter_app/features/chat/controllers/chat_message_controller.dart';
-import 'package:flutter_app/app/runtime/app_chat_runtime_store.dart';
-import 'package:flutter_app/features/chat/state/chat_attachment_store.dart';
-import 'package:flutter_app/features/chat/state/chat_model_catalog_store.dart';
-import 'package:flutter_app/features/chat/state/chat_session_store.dart';
-import 'package:flutter_app/features/jobs/controllers/job_operations_controller.dart';
-import 'package:flutter_app/features/prompts/state/prompt_library_store.dart';
-import 'package:flutter_app/features/settings/system/system_operations_controller.dart';
+import 'package:noviagen/models/chat_attachments.dart';
+import 'package:noviagen/models/chat_messages.dart';
+import 'package:noviagen/models/chat_models.dart';
+import 'package:noviagen/models/chat_sessions.dart';
+import 'package:noviagen/models/chat_tools.dart';
+import 'package:noviagen/models/gallery.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/models/prompts.dart';
+import 'package:noviagen/app/navigation/app_navigation_controller.dart';
+import 'package:noviagen/features/chat/controllers/chat_message_controller.dart';
+import 'package:noviagen/app/runtime/app_chat_runtime_store.dart';
+import 'package:noviagen/features/chat/state/chat_attachment_store.dart';
+import 'package:noviagen/features/chat/state/chat_model_catalog_store.dart';
+import 'package:noviagen/features/chat/state/chat_session_store.dart';
+import 'package:noviagen/features/jobs/controllers/job_operations_controller.dart';
+import 'package:noviagen/features/prompts/state/prompt_library_store.dart';
+import 'package:noviagen/features/settings/system/system_operations_controller.dart';
 
 abstract class ChatViewModel implements Listenable {
   String get draft;

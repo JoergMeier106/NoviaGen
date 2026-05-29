@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_app/models/media.dart';
-import 'package:flutter_app/shared/media_preview.dart';
-import 'package:flutter_app/shared/widgets/common_widgets.dart';
-import 'package:flutter_app/features/gallery/media_detail_pages.dart';
+import 'package:noviagen/models/media.dart';
+import 'package:noviagen/shared/media_preview.dart';
+import 'package:noviagen/shared/widgets/common_widgets.dart';
+import 'package:noviagen/features/gallery/media_detail_pages.dart';
 
-import 'package:flutter_app/features/generate/generation_view_model.dart';
+import 'package:noviagen/features/generate/generation_view_model.dart';
 
 class LatestMediaCard extends StatelessWidget {
   const LatestMediaCard({

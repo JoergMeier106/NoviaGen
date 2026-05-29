@@ -1,4 +1,4 @@
-import 'package:flutter_app/models/assets.dart';
+import 'package:noviagen/models/assets.dart';
 
 class VideoWorkflowLoraSelectionOption {
   const VideoWorkflowLoraSelectionOption({

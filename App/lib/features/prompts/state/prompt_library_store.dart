@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:flutter_app/app/persistence/settings_codecs.dart';
-import 'package:flutter_app/features/prompts/domain/saved_prompt_collection.dart';
-import 'package:flutter_app/models/prompts.dart';
-export 'package:flutter_app/features/prompts/domain/saved_prompt_collection.dart';
+import 'package:noviagen/app/persistence/settings_codecs.dart';
+import 'package:noviagen/features/prompts/domain/saved_prompt_collection.dart';
+import 'package:noviagen/models/prompts.dart';
+export 'package:noviagen/features/prompts/domain/saved_prompt_collection.dart';
 
 class PromptLibraryStore {
   PromptLibraryStore({this.onChanged});
